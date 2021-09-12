@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+font-family: 'Glory', sans-serif;
+	font-size: 14px;
+	line-height: 24px; 
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Great Vibes', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.all{
+	width: 1140px;
+text-align: center;
+}	
+.headding1{
+	width:100%;
+	height: 10%;
+	color:white;
+	background:green ;
+	text-align: center;
+	padding: 3%; 
+	font-size: 40px;
+	margin: 10px 0px 0px 60px;
+	transition: 1s;
+
+}
+.headding1:hover{
+	color:red;
+}
+.hr{
+	margin-left:150px;
+	margin-top: 25px;
+}
+.paragraph1{
+	color: gray;
+	font-size: 24px;
+	margin-left:150px;
+	margin-top: 5%;
+}
+.green{
+	height:300px;
+	width: 50%;
+	background: green;
+	position: relative;
+	margin:5% 30%;
+
+}
+.red{
+	height: 150px;
+	width: 150px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 23%;
+	right: 37%;
+}
+.img{
+	width: 150px;
+	position:fixed;
+	top: 20%;
+	right: -112px;
+	transition: 1s;
+}
+.img:hover{
+	right: -3px;
+	cursor: pointer; 
+}
+.img-2{
+	width: 120px;
+	transition: 1s;
+	position:fixed;
+	top:60%;
+	right: -83px;
+}
+.img-2:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.nayem{
+width:100%;
+	height: 10%;
+	color:white;
+	background:red;
+	text-align: center;
+	padding: 3%; 
+	font-size: 40px;
+	margin: 100px 0px 0px 60px;
+}
+.nayem:hover{
+	color: blue;
+}
+.rasian-flag{
+	color: gray;
+	font-size: 24px;
+	margin-left:150px;
+	margin-top: 5%;
+}	
+.red-main{
+	width: 50%;
+	height: 300px;
+	background: red;
+	border: 3px solid black;
+	margin-top:150px ;
+	position: relative;
+	margin:5% 30%;
+}
+.blue{
+	width: 100%;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	top: 33%;
+}
+.white{
+	width: 100%;
+	height: 100px;
+	background:white;
+	position: absolute;
+}
+.sosal-icons{
+	height: 60px;
+	width: 100%;
+	background:#eef3f8;
+	margin-left:5%;
+	margin-bottom: 2%;
+	padding: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+.sosal-icons li{
+	list-style: none;
+	display: inline-block;
+	margin-top:-0.1%;
+	text-align: center;
+
+}
+.sosal-icons li a{
+	display: block;
+	height: 50px;
+	width: 50px;
+	color: white;
+	line-height: 50px;
+	border-radius:100%;
+	background: blue;
+	font-size:30px; 
+	margin: 0px 10px;
+	transition: 1s;
+}
+.sosal-icons li a:hover{
+	background: red;
+	color: yellow;
+}
+
+.table{
+	height:584px;
+	width: 530px;
+	background: black;
+	margin-left: 36%;
+	margin-bottom: 10%;
+	margin-top: 5%;
+
+}
+.caption{
+	background: blue;
+}
+.table-paragraph{
+	color: gray;
+	font-size: 24px;
+	margin-left:150px;
+	margin-top: 5%;
+
+}
+.main-table{
+	width:100%;	
+	color: white;
+	border-collapse:collapse;
+}
+thead{
+	background: #00ff80;
+}
+td,th{
+	border:1px solid white ;
+	padding: 24px;
+	text-align: center;
+	/* transition: 1s; */
+}
+
+/* .tr2:hover{
+	background: #00ffff;
+} */
+td:hover{
+	background:	#bfff00 ;
+}
